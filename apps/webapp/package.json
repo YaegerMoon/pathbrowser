@@ -1,0 +1,11 @@
+{
+  "name": "path_browser_webapp",
+  "version": "1.0.0",
+  "description": "React Base Web Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yaeger",
+  "license": "ISC"
+}
