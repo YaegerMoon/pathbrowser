@@ -1,10 +1,21 @@
 package image
 
-import "github.com/jammy-dodgers/gophenslide/openslide"
-
 type ImageService struct {
-	path   string
-	format string
-	size   string
-	slide  openslide.Slide
+	tileSize int64
+}
+
+func (service *ImageService) FindAll(path string) {
+
+}
+
+func (service *ImageService) FindOne(file string) {
+
+}
+
+func (service *ImageService) FindDZI(path string) {
+
+}
+
+func (service *ImageService) ReadTile(path string, col int64, row int64, level int32) {
+
 }
