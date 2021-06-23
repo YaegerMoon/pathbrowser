@@ -4,6 +4,10 @@ type ImageService struct {
 	tileSize int64
 }
 
+func New(tileSize int64) *ImageService {
+	return &ImageService{tileSize: tileSize}
+}
+
 func (service *ImageService) FindAll(path string) {
 
 }
